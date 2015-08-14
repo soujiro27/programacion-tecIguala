@@ -1,0 +1,70 @@
+body {
+  background: #afafaf;
+  font-size: 16px;
+  font-family: arial;
+}
+header {
+  background: #2c3e50;
+  color: #fff;
+}
+header img.logo {
+  width: 8%;
+  display: inline-block;
+}
+header h1 {
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  vertical-align: top;
+  width: 80%;
+}
+header figure {
+  display: inline-block;
+  margin: 0;
+  width: 10%;
+}
+header figure img {
+  width: 88%;
+}
+header figure figcaption {
+  width: 8%;
+}
+header nav {
+  background: #26bce0;
+  border-bottom: 3px solid #d35400;
+}
+header nav ul {
+  margin: 0;
+}
+header nav ul li {
+  display: inline-block;
+  color: #fff;
+  padding: 1%;
+}
+header nav ul li:hover {
+  color: #d35400;
+  text-shadow: 2px 2px 0px #000;
+}
+section.post {
+  width: 90%;
+  display: inline-block;
+}
+section.post article {
+  background: #fff;
+}
+section.post article img {
+  width: 10%;
+  display: inline-block;
+}
+section.post article div.textoPost {
+  width: 85%;
+  display: inline-block;
+}
+section.post article div.textoPost p.categoria {
+  background: #2c3e50;
+  color: #fff;
+  width: 10%;
+  padding: 1%;
+  border-radius: 10px;
+  text-align: center;
+}
